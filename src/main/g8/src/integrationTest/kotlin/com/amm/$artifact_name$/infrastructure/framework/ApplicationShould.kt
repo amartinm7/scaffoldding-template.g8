@@ -1,4 +1,4 @@
-package com.amm.elastic.poc.infrastructure.framework
+package com.amm.$artifact_name$.infrastructure.framework
 
 import io.restassured.module.mockmvc.RestAssuredMockMvc
 import org.hamcrest.Matchers

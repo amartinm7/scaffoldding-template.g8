@@ -1,4 +1,4 @@
-package com.amm.elastic.poc.infrastructure.framework
+package com.amm.$artifact_name$.infrastructure.framework
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

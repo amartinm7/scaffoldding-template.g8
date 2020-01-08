@@ -1,4 +1,4 @@
-package com.amm.elastic.poc.infrastructure.framework.config
+package com.amm.$artifact_name$.infrastructure.framework.config
 
 import org.springframework.context.annotation.Configuration
 import org.springframework.security.config.annotation.web.builders.HttpSecurity
