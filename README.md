@@ -1,0 +1,1 @@
+# scaffoldding-template.g8
