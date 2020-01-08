@@ -1,0 +1,21 @@
+version: '3.5'
+
+services:
+  elasticsearch:
+    container_name: ms_searcher_elastic_search
+    image: docker.elastic.co/elasticsearch/elasticsearch:5.5.3
+    environment:
+      xpack.security.enabled: "false"
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    ports:
+      - "9200:9200"
+
+  kibana:
+    container_name: ms_searcher_kibana
+    image: kibana:5.3.2
+    ports:
+      - "5601:5601"
+
